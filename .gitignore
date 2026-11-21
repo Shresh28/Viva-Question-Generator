@@ -1,0 +1,33 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments and tooling
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+
+# User documents and generated files
+*.pdf
+*.txt
+!README.md
+!requirements.txt
+!tests/manual_checklist.md
+uploads/
+downloads/
+
+# OS
+Thumbs.db
+.DS_Store
+
