@@ -123,9 +123,7 @@ Automated generation tests use a fake Ollama response and require no model downl
 - PDF export uses a built-in Latin font; glyphs outside Latin-1 may appear as replacement characters. The TXT export preserves Unicode.
 - Automated tests do not prove factual quality for your report or model/API availability.
 
-## Screenshots
 
-The `screenshots/` folder is reserved for screenshots. Add screenshots after running the app; do not include API keys or private report contents.
 
 ## Future scope
 
@@ -137,4 +135,6 @@ The `screenshots/` folder is reserved for screenshots. Add screenshots after run
 ## GitHub readiness
 
 The project is published in the GitHub repository. For future updates, review `git status` before committing. `.env`, PDF files, virtual environments, Python caches, and generated text files are ignored.
+
+SHRESH BURHANPURKAR 
 
