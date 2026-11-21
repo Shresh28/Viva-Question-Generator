@@ -13,8 +13,8 @@ Students often have difficulty anticipating the questions an examiner may ask ab
 - Exactly 5 questions at each of three difficulty levels; duplicates and malformed responses are rejected.
 - Short or Detailed answer style, result persistence during the browser session, and regeneration.
 - Expandable answer cards, extracted-text transparency, TXT downloads, and PDF downloads.
-- Optional local generation through Ollama, which sends report text to the local model service instead of a cloud API.
-- Friendly handling for missing keys, API failures, rate limits, malformed PDFs, and file-size limits.
+- Local generation through Ollama, which keeps report text on this computer.
+- Friendly handling for local model/service errors, malformed PDFs, and file-size limits.
 - Modular services and a mocked pytest suite.
 
 ## Technology stack
@@ -131,10 +131,10 @@ The `screenshots/` folder is reserved for screenshots. Add screenshots after run
 
 - Optional OCR integration for scanned reports.
 - Citation hints that link each generated question to report sections or pages.
-- Additional model providers behind the existing generator interface.
+- Optional support for additional local model providers.
 - Export customization and user-selected question counts while preserving balanced difficulty.
 
 ## GitHub readiness
 
-Review `git status` before publishing. `.env`, PDF files, virtual environments, Python caches, and generated text files are ignored. No commit, push, or upload is performed by this project setup.
+The project is published in the GitHub repository. For future updates, review `git status` before committing. `.env`, PDF files, virtual environments, Python caches, and generated text files are ignored.
 
